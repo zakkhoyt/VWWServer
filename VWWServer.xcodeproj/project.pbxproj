@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C6F3B9C51789033500F0CAA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C6F3B9C71789033500F0CAA8 /* api.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = api.php; sourceTree = "<group>"; };
+		C6F3B9C81789033500F0CAA8 /* api_config.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = api_config.php; sourceTree = "<group>"; };
+		C6F3B9CA1789033500F0CAA8 /* api.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = api.php; sourceTree = "<group>"; };
+		C6F3B9CB1789033500F0CAA8 /* api_config.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = api_config.php; sourceTree = "<group>"; };
+		C6F3B9CC1789033500F0CAA8 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		C6F3B9CD1789033500F0CAA8 /* random_string.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = random_string.php; sourceTree = "<group>"; };
+		C6F3B9CF1789033500F0CAA8 /* api_upload.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = api_upload.html; sourceTree = "<group>"; };
+		C6F3B9D11789033500F0CAA8 /* IMG_3470.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3470.jpg; sourceTree = "<group>"; };
+		C6F3B9D21789033500F0CAA8 /* upload_file.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = upload_file.php; sourceTree = "<group>"; };
+		C6F3B9D31789033500F0CAA8 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		C6F3B9D51789033500F0CAA8 /* api_join.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = api_join.html; sourceTree = "<group>"; };
+		C6F3B9D61789033500F0CAA8 /* api_leave.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = api_leave.html; sourceTree = "<group>"; };
+		C6F3B9D71789033500F0CAA8 /* api_message.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = api_message.html; sourceTree = "<group>"; };
+		C6F3B9D81789033500F0CAA8 /* api_update.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = api_update.html; sourceTree = "<group>"; };
+		C6F3B9D91789033500F0CAA8 /* database.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = database.php; sourceTree = "<group>"; };
+		C6F3B9DB1789033500F0CAA8 /* apache_access.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = apache_access.log; sourceTree = "<group>"; };
+		C6F3B9DC1789033500F0CAA8 /* apache_error.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = apache_error.log; sourceTree = "<group>"; };
+		C6F3B9DD1789033500F0CAA8 /* push_development.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = push_development.log; sourceTree = "<group>"; };
+		C6F3B9DF1789033500F0CAA8 /* ck_development.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = ck_development.pem; sourceTree = "<group>"; };
+		C6F3B9E01789033500F0CAA8 /* feedback.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = feedback.php; sourceTree = "<group>"; };
+		C6F3B9E11789033500F0CAA8 /* feedback_config.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = feedback_config.php; sourceTree = "<group>"; };
+		C6F3B9E21789033500F0CAA8 /* push.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = push.php; sourceTree = "<group>"; };
+		C6F3B9E31789033500F0CAA8 /* push_config.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = push_config.php; sourceTree = "<group>"; };
+		C6F3B9E41789033500F0CAA8 /* push_test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = push_test.php; sourceTree = "<group>"; };
+		C6F3B9E61789033500F0CAA8 /* api.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = api.sql; sourceTree = "<group>"; };
+		C6F3B9E71789033500F0CAA8 /* database.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = database.sql; sourceTree = "<group>"; };
+		C6F3B9E81789033500F0CAA8 /* push.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = push.sql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C6F3B9BE1789030400F0CAA8 = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9C51789033500F0CAA8 /* README.md */,
+				C6F3B9C61789033500F0CAA8 /* api */,
+				C6F3B9DA1789033500F0CAA8 /* log */,
+				C6F3B9DE1789033500F0CAA8 /* push */,
+				C6F3B9E51789033500F0CAA8 /* database */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F3B9C61789033500F0CAA8 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9C71789033500F0CAA8 /* api.php */,
+				C6F3B9C81789033500F0CAA8 /* api_config.php */,
+				C6F3B9C91789033500F0CAA8 /* events */,
+				C6F3B9D31789033500F0CAA8 /* index.php */,
+				C6F3B9D41789033500F0CAA8 /* test */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		C6F3B9C91789033500F0CAA8 /* events */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9CA1789033500F0CAA8 /* api.php */,
+				C6F3B9CB1789033500F0CAA8 /* api_config.php */,
+				C6F3B9CC1789033500F0CAA8 /* index.php */,
+				C6F3B9CD1789033500F0CAA8 /* random_string.php */,
+				C6F3B9CE1789033500F0CAA8 /* test */,
+				C6F3B9D01789033500F0CAA8 /* upload */,
+				C6F3B9D21789033500F0CAA8 /* upload_file.php */,
+			);
+			path = events;
+			sourceTree = "<group>";
+		};
+		C6F3B9CE1789033500F0CAA8 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9CF1789033500F0CAA8 /* api_upload.html */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		C6F3B9D01789033500F0CAA8 /* upload */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9D11789033500F0CAA8 /* IMG_3470.jpg */,
+			);
+			path = upload;
+			sourceTree = "<group>";
+		};
+		C6F3B9D41789033500F0CAA8 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9D51789033500F0CAA8 /* api_join.html */,
+				C6F3B9D61789033500F0CAA8 /* api_leave.html */,
+				C6F3B9D71789033500F0CAA8 /* api_message.html */,
+				C6F3B9D81789033500F0CAA8 /* api_update.html */,
+				C6F3B9D91789033500F0CAA8 /* database.php */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		C6F3B9DA1789033500F0CAA8 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9DB1789033500F0CAA8 /* apache_access.log */,
+				C6F3B9DC1789033500F0CAA8 /* apache_error.log */,
+				C6F3B9DD1789033500F0CAA8 /* push_development.log */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		C6F3B9DE1789033500F0CAA8 /* push */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9DF1789033500F0CAA8 /* ck_development.pem */,
+				C6F3B9E01789033500F0CAA8 /* feedback.php */,
+				C6F3B9E11789033500F0CAA8 /* feedback_config.php */,
+				C6F3B9E21789033500F0CAA8 /* push.php */,
+				C6F3B9E31789033500F0CAA8 /* push_config.php */,
+				C6F3B9E41789033500F0CAA8 /* push_test.php */,
+			);
+			path = push;
+			sourceTree = "<group>";
+		};
+		C6F3B9E51789033500F0CAA8 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B9E61789033500F0CAA8 /* api.sql */,
+				C6F3B9E71789033500F0CAA8 /* database.sql */,
+				C6F3B9E81789033500F0CAA8 /* push.sql */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C6F3B9BF1789030400F0CAA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C6F3B9C21789030400F0CAA8 /* Build configuration list for PBXProject "VWWServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6F3B9BE1789030400F0CAA8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C6F3B9C31789030400F0CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C6F3B9C41789030400F0CAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F3B9C21789030400F0CAA8 /* Build configuration list for PBXProject "VWWServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F3B9C31789030400F0CAA8 /* Debug */,
+				C6F3B9C41789030400F0CAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6F3B9BF1789030400F0CAA8 /* Project object */;
+}
