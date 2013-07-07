@@ -1,0 +1,32 @@
+2013-07-06T14:25:15-07:00 Push script started (development mode)
+2013-07-06T14:25:15-07:00 Connecting to gateway.sandbox.push.apple.com:2195
+2013-07-06T14:25:16-07:00 Connection OK
+2013-07-06T14:30:01-07:00 Sending message 1 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"SteveJ: Hello, world!","sound":"default"}}'
+2013-07-06T14:30:01-07:00 Message successfully delivered
+2013-07-06T14:31:26-07:00 Sending message 2 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: My butty butt","sound":"default"}}'
+2013-07-06T14:31:26-07:00 Message successfully delivered
+2013-07-06T14:32:01-07:00 Sending message 3 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: My butty butt","sound":"default"}}'
+2013-07-06T14:32:01-07:00 Message successfully delivered
+2013-07-06T14:35:41-07:00 Sending message 4 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: My butty butt","sound":"default"}}'
+2013-07-06T14:35:41-07:00 Message successfully delivered
+2013-07-06T14:36:01-07:00 Sending message 5 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"default"}}'
+2013-07-06T14:36:01-07:00 Message successfully delivered
+2013-07-06T14:37:01-07:00 Sending message 6 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"beep.caf"}}'
+2013-07-06T14:37:01-07:00 Message successfully delivered
+2013-07-06T14:37:21-07:00 Sending message 7 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"beep.caf"}}'
+2013-07-06T14:37:21-07:00 Message successfully delivered
+2013-07-06T14:37:56-07:00 Sending message 8 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"beep.caf"}}'
+2013-07-06T14:37:56-07:00 Message successfully delivered
+2013-07-06T14:38:52-07:00 Sending message 9 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"beep.caf"}}'
+2013-07-06T14:38:52-07:00 Message successfully delivered
+2013-07-06T14:42:47-07:00 Sending message 10 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"beep.mp3"}}'
+2013-07-06T14:42:47-07:00 Message successfully delivered
+2013-07-06T14:46:52-07:00 Sending message 11 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"message.mp3"}}'
+2013-07-06T14:46:52-07:00 Message successfully delivered
+2013-07-06T14:47:52-07:00 Sending message 12 to 'fff9c8b92d1def7435538f467b2f83f43ed902197653542a30b23458a9d1f839', payload: '{"aps":{"alert":"Mac: Super butt butthead","sound":"high_frequency.mp3"}}'
+2013-07-06T14:47:52-07:00 Message successfully delivered
+2013-07-06T15:06:18-07:00 Exiting with fatal error: exception 'PDOException' with message 'SQLSTATE[08S01]: Communication link failure: 1053 Server shutdown in progress' in /Users/zakkhoyt/Code/repositories/smile/Heartstream-iOS/PushChatServer/push/push.php:110
+Stack trace:
+#0 /Users/zakkhoyt/Code/repositories/smile/Heartstream-iOS/PushChatServer/push/push.php(110): PDOStatement->execute()
+#1 /Users/zakkhoyt/Code/repositories/smile/Heartstream-iOS/PushChatServer/push/push.php(37): APNS_Push->start()
+#2 {main}
