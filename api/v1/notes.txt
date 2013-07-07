@@ -1,0 +1,4 @@
+http://pushchat.local:44447/api/v1/api.php
+
+
+http://pushchat.local:44447/api/v1/test/api_upload.html

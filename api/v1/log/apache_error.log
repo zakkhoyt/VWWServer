@@ -1,0 +1,5 @@
+[Sat Jul 06 22:55:11 2013] [error] [client 127.0.0.1] File does not exist: /Users/zakkhoyt/Code/repositories/vww/VWWServer/api/v1/v1
+[Sat Jul 06 23:20:34 2013] [error] [client 192.168.1.140] Invalid method in request \x16\x03\x01
+[Sat Jul 06 23:20:34 2013] [error] [client 192.168.1.140] Invalid method in request \x16\x03\x01
+[Sat Jul 06 23:20:34 2013] [error] [client 192.168.1.140] Invalid method in request \x16\x03
+[Sat Jul 06 23:20:57 2013] [error] [client 127.0.0.1] File does not exist: /Users/zakkhoyt/Code/repositories/vww/VWWServer/api/v1/api.phpo
