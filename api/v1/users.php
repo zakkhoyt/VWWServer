@@ -27,7 +27,7 @@
             !isset($_POST['password'])){
             echo 'missing required parameter';
             echo print_r($_POST);
-            exitWithHttpError(400, "first_name");
+            exitWithHttpError(400, "missing param");
         }
         
         $pdo->beginTransaction();
@@ -39,10 +39,27 @@
         echo "added users entry to db";
     }
     else if($_SERVER['REQUEST_METHOD'] == 'DELETE'){
-        echo 'POST' . '<br>';
+        echo 'DELETE' . '<br>';
+        
+        echo print_r($_REQUEST);
+        if (!isset($_REQUEST['uuid'])){
+            echo 'missing required parameter';
+            echo print_r($_DELETE);
+            exitWithHttpError(400, "missin uuid");
+        }
+        $uuid = $_REQUEST['uuid'];
+        echo 'uuid = ' . $uuid;
+        
+        $pdo->beginTransaction();
+        $stmt = $pdo->prepare('DELETE from users where uuid = ?');
+        $stmt->execute(array($_REQUEST['uuid']));
+        $pdo->commit();
+        
+        echo "deleted user entry from db";
+
     }
     else if($_SERVER['REQUEST_METHOD'] == 'PUT'){
-        echo 'POST' . '<br>';
+        echo 'PUT' . '<br>';
     }
     
     
